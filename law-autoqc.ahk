@@ -1,15 +1,3 @@
-
-;WinGet, id, list,,, Program Manager
-;Loop, %id%
-;{
-;    this_id := id%A_Index%
-;    WinActivate, ahk_id %this_id%
-;    WinGetClass, this_class, ahk_id %this_id%
-;    WinGetTitle, this_title, ahk_id %this_id%
-;    MsgBox, 4, , Visiting All Windows`n%a_index% of %id%`nahk_id %this_id%`nahk_class %this_class%`n%this_title%`n`nContinue?
-;    IfMsgBox, NO, break
-;}
-;
 #include window_functions.ahk
 auto_qc_speed := 3000
 auto_qc_on := false
@@ -39,13 +27,12 @@ auto_qc()
 adjust_speed(by)
 {
     global auto_qc_speed
-    auto_qc_speed := auto_qc_speed + by
-    MsgBox, %auto_qc_speed%
+    auto_qc_speed += by
 }
 
 auto_qc()
 
-Space::toggle_auto_qc()
+q::toggle_auto_qc()
 ,::adjust_speed(-500)
 .::adjust_speed(500)
 
