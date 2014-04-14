@@ -11,10 +11,18 @@ toggle_auto_qc()
 auto_qc()
 {
     global auto_qc_on
+    global rollover_t
     loop
     {
         if auto_qc_on 
+        {
             move_down()
+            loop
+            {
+                if (A_TickCount >= rollover_t)
+                    break
+            }
+        }
     }
 }
 
@@ -24,8 +32,7 @@ adjust_speed(by)
     auto_qc_speed += by
 }
 
-
-move_down()
+move(direction)
 {
     global rollover_t
     global auto_qc_speed
@@ -33,12 +40,13 @@ move_down()
 
     rollover_t := A_TickCount + auto_qc_speed
     fnWindow(law)
-    Send, {Down}
-    loop
-    {
-        if (A_TickCount >= rollover_t)
-            break
-    }
+    Send, %direction%
+}
+
+
+move_down()
+{
+    move("{Down}")
 }
 
 auto_qc()
