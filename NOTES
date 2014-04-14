@@ -1,0 +1,3 @@
+if Page and PgCount are made the first fields in the Profile view,
+they correspond to Edit5 and Edit6 controls. We will compare those
+to figure out what page we are on.

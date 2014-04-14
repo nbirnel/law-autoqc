@@ -1,0 +1,114 @@
+ThunderRT6Timer1:  
+ThunderRT6Timer2:  
+ThunderRT6Timer3:  
+ThunderRT6Timer4:  
+ThunderRT6PictureBoxDC1:  
+ThunderRT6Timer5:  
+ThunderRT6Timer6:  
+ThunderRT6DirListBox1:  
+ThunderRT6Timer7:  
+PixEzClass321:  
+PixEzClass322:  
+StatusBar20WndClass1:  
+ThunderRT6PictureBoxDC2:  
+SSSplitterWndClass1:  
+AfxOleControl42su1:  
+SysTreeView321:  
+ThunderRT6PictureBoxDC3:  
+ThunderRT6PictureBoxDC4:  
+ThunderRT6UserControlDC1:  
+ThunderRT6PictureBoxDC5:  
+ThunderRT6PictureBoxDC6:  
+ThunderRT6UserControlDC2:  
+ThunderRT6PictureBoxDC7:  
+ThunderRT6UserControlDC3:  
+ThunderRT6PictureBoxDC8:  
+SSTabCtlWndClass1:  
+ThunderRT6CommandButton1: &Clear 
+ThunderRT6CommandButton2: &Update 
+ThunderRT6ComboBox1: page-n-page-count (Global) 
+ThunderRT6CommandButton3: ... 
+ThunderRT6PictureBoxDC9:  
+ThunderRT6UserControlDC4:  
+ThunderRT6PictureBoxDC10:  
+ThunderRT6TextBox1:  
+ThunderRT6HScrollBar1:  
+ThunderRT6UserControlDC5:  
+ThunderRT6UserControlDC6:  
+ThunderRT6Timer8:  
+ThunderRT6Timer9:  
+ThunderRT6Timer10:  
+ThunderRT6Timer11:  
+AfxOleControl421:  
+AfxFrameOrView421:  
+XTPStatusBar1:  
+XTPDockBar1: xtpBarTop 
+XTPToolBar1: LAW 5.0 Grid Toolbar 
+XTPToolBar2: Menu Bar 
+XTPDockBar2: xtpBarBottom 
+XTPDockBar3: xtpBarLeft 
+XTPDockBar4: xtpBarRight 
+Afx:62c0000:0:10005:0:01:  
+ComboBox1:  
+Edit1:  
+ListBox1:  
+SSScrollWndClass1:  
+ThunderRT6PictureBoxDC11:  
+ThunderRT6ComboBox2:  
+ThunderRT6TextBox2:  
+ThunderRT6TextBox3:  
+ThunderRT6ComboBox3:  
+Edit2:  
+ThunderRT6ComboBox4:  
+Edit3:  
+Edit4:  
+AfxOleControl42su2:  
+Edit5: 1 
+ThunderRT6PictureBoxDC12:  
+Edit6: 4 
+ThunderRT6PictureBoxDC13:  
+Edit7: 08 
+ThunderRT6PictureBoxDC14:  
+Edit8:  
+ThunderRT6PictureBoxDC15:  
+Edit9:  
+ThunderRT6PictureBoxDC16:  
+SSTabPanelWndClass1:  
+AfxOleControl42su3:  
+ThunderRT6PictureBoxDC17:  
+ThunderRT6UserControlDC7:  
+ThunderRT6PictureBoxDC18:  
+ThunderRT6UserControlDC8:  
+ThunderRT6PictureBoxDC19:  
+ThunderRT6UserControlDC9:  
+ThunderRT6PictureBoxDC20:  
+ThunderRT6UserControlDC10:  
+ThunderRT6PictureBoxDC21:  
+SSTabCtlWndClass2:  
+SSSplitterWndClass2:  
+PixEzClass323:  
+PixEzClass324:  
+ThunderRT6CommandButton4: Save 
+ImageCombo20WndClass1:  
+ComboBox2:  
+Edit10:  
+Edit11: No Text Available... 
+PixEzClass325:  
+ThunderRT6UserControlDC11:  
+ThunderRT6PictureBoxDC22:  
+ThunderRT6TextBox4: 305 
+ThunderRT6HScrollBar2:  
+ThunderRT6UserControlDC12:  
+ThunderRT6UserControlDC13:  
+ThunderRT6Timer12:  
+ThunderRT6Timer13:  
+ThunderRT6Timer14:  
+ThunderRT6Timer15:  
+XTPStatusBar2:  
+XTPDockBar5: xtpBarTop 
+XTPToolBar3: LAW 5.0 Tools 
+XTPToolBar4: LAW 5.0 Menu 
+XTPDockBar6: xtpBarBottom 
+XTPDockBar7: xtpBarLeft 
+XTPDockBar8: xtpBarRight 
+Afx:62c0000:0:10005:0:02:  
