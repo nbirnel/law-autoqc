@@ -49,9 +49,17 @@ move_down()
     move("{Down}")
 }
 
+move_up()
+{
+    global auto_qc_on
+    move("{Up}")
+    auto_qc_on := false
+}
+
 auto_qc()
 
 Space::toggle_auto_qc()
 ,::adjust_speed(-500)
 .::adjust_speed(500)
 $Down::move_down()
+$Up::move_up()
