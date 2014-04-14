@@ -10,7 +10,6 @@ toggle_auto_qc()
 
 auto_qc()
 {
-    law=LAW ahk_class ThunderRT6FormDC
     global auto_qc_on
     loop
     {
