@@ -47,7 +47,6 @@ move(direction, halt=false)
 
 }
 
-
 auto_qc()
 
 Space::toggle_auto_qc()
