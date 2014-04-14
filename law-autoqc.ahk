@@ -32,8 +32,6 @@ adjust_speed(by)
 
 auto_qc()
 
-q::toggle_auto_qc()
+Space::toggle_auto_qc()
 ,::adjust_speed(-500)
 .::adjust_speed(500)
-
-
