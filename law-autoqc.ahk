@@ -56,4 +56,4 @@ $Down::move("{Down}")
 $Up::move("{Up}", "halt")
 $Right::move("{Right}", "halt")
 $Left::move("{Left}", "halt")
-F12::Suspend
+Pause::Suspend
