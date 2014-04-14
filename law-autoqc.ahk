@@ -16,7 +16,7 @@ auto_qc()
     {
         if auto_qc_on 
         {
-            move_down()
+            move("{Down}")
             loop
             {
                 if (A_TickCount >= rollover_t)
@@ -32,8 +32,9 @@ adjust_speed(by)
     auto_qc_speed += by
 }
 
-move(direction)
+move(direction, halt=false)
 {
+    global auto_qc_on
     global rollover_t
     global auto_qc_speed
     law=LAW ahk_class ThunderRT6FormDC
@@ -41,25 +42,18 @@ move(direction)
     rollover_t := A_TickCount + auto_qc_speed
     fnWindow(law)
     Send, %direction%
+    if halt
+        auto_qc_on := false
+
 }
 
-
-move_down()
-{
-    move("{Down}")
-}
-
-move_up()
-{
-    global auto_qc_on
-    move("{Up}")
-    auto_qc_on := false
-}
 
 auto_qc()
 
 Space::toggle_auto_qc()
 ,::adjust_speed(-500)
 .::adjust_speed(500)
-$Down::move_down()
-$Up::move_up()
+$Down::move("{Down}")
+$Up::move("{Up}", "halt")
+$Right::move("{Right}", "halt")
+$Left::move("{Left}", "halt")
